@@ -3,14 +3,14 @@
 # version: 0.0.1
 # date: 09/03/2022
 
-# import pyautogui
+import pyautogui
 # sudo apt install python-tk python3-tk
-# 3from tkinter import messagebox
+# from tkinter import messagebox
 
 def calculadora(operandoA, operandoB, operacion):
     if operacion == '+':
         print(operandoA + operandoB)
-        # pyautogui.alert(operandoA + operandoB, 'Resultado')
+        pyautogui.alert(operandoA + operandoB, 'Resultado')
         # messagebox.showinfo('Resultado', operandoA + operandoB)
     elif operacion == '-':
         print(operandoA - operandoB)
